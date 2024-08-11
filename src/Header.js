@@ -9,7 +9,7 @@ export default function Header({ myFunc, cartCount, alldish, cartDisplay }) {
     <>
       <div className={styles.hero}>
         <img
-          src="/food_image/hero1-removebg-preview.png"
+          src="food_image/hero1-removebg-preview.png"
           alt="hero"
         />
         <div className={styles.logo}>
