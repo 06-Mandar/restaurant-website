@@ -1,9 +1,9 @@
 
 const AllFood = {
     Italian: [
-      { id: 1, foodName: "Margherita Pizza", price: 753, url: "food_image/italian/italian1.jpg", count: 0},
-      { id: 2, foodName: "Lasagna", price: 599, url: "food_image/italian/italian2.jpg", count: 0},
-      { id: 3, foodName: "Spaghetti Carbonara", price: 920.60, url: "food_image/italian/italian3.jpg", count: 0},
+      { id: 1, foodName: "Margherita Pizza", price: 8.97, url: "food_image/italian/italian1.jpg", count: 0},
+      { id: 2, foodName: "Lasagna", price: 7.14, url: "food_image/italian/italian2.jpg", count: 0},
+      { id: 3, foodName: "Spaghetti Carbonara", price: 10.96, url: "food_image/italian/italian3.jpg", count: 0},
       { id: 4, foodName: "Risotto", price: 11.99, url: "food_image/italian/italian4.jpg", count: 0},
       { id: 5, foodName: "Tiramisu", price: 6.99, url: "food_image/italian/italian5.jpg", count: 0},
       { id: 6, foodName: "Pesto Pasta", price: 9.99, url: "food_image/italian/italian6.jpeg", count: 0},
