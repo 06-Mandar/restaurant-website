@@ -3,7 +3,7 @@ import styles from "./styles/login.module.css";
 import { useNavigate } from 'react-router-dom';
 
 const rusername = "Mandar"
-const rpassword = "DR.MANDAR06";
+const rpassword = "123";
 export default function Login() {
     const navigate = useNavigate();
     const [username, setUsername] = useState("");
