@@ -1,0 +1,108 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&display=swap');
+
+.hero  {
+    box-sizing: border-box;
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 432px;
+}
+
+.hero > img {
+    float: right;
+}
+
+.nav {
+    position: fixed;
+    z-index: 2;
+    background-color: black;
+    color: white;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    top:0%;
+    left:0%;
+    width: 100%;
+}
+
+.nav > li {
+    float: left;
+    padding: 16px;
+    font-weight: bold;
+    height: 22px;
+}
+
+.nav > li:hover {
+    background-color: #9c9c9c;
+    color: #000;
+}
+
+.menuP {
+    position: relative;
+}
+
+.menuC {
+    position: absolute;
+    background-color: white;
+    top: 100%;
+    left: 0%;
+    display: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.menuP:hover > .menuC {
+    display: block;
+}
+
+.menuC > li {
+    width: 130px;
+    padding: 6px;
+}
+
+.menuC > li:hover {
+    background-color: #9c9c9c;
+}
+
+.logo {
+    position: absolute;
+    padding: 0;
+    top: 25%;
+    left: 10%;
+}
+
+.logo > h1 {
+    background-color: #000;
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: bold;
+    color: #fff;
+    font-size: 75px;
+}
+
+.customIcon {
+    width: 35px;
+    font-size: 20px;
+}
+
+.cartCount {
+    position: absolute;
+    top: 5px;
+    left: 40px;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    background-color: #f00;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 18px;
+    padding: 2px;
+    color: #fff;
+}
+
+.cart {
+    position: relative;
+}
